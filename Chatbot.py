@@ -4,7 +4,7 @@ import torch
 
 @st.cache_resource
 def load_model_and_tokenizer():
-    model_name = "TinyLlama/TinyLlama-1.1B-chat-v1.0"
+    model_name = "deepseek-ai/DeepSeek-R1-0528"
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     model = AutoModelForCausalLM.from_pretrained(model_name)
     return tokenizer, model
