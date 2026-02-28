@@ -2,3 +2,6 @@ transformers==4.40.1
 tokenizers==0.19.1
 torch==2.2.2
 streamlit==1.26.0
+#For hugging face deployment
+sentencepiece
+protobuf
